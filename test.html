@@ -1,0 +1,105 @@
+ <!-- Account Page -->
+
+ <div class="account-page">
+    <div class="form-box">
+        <div class="Abutton-box">
+            <div id="btn"></div>
+            <button type="button" class="toggle-btn">Login</button>
+            <button type="button" class="toggle-btn">Register</button>
+        </div>
+        <form action="" id="login" class="input-group">
+            <input type="text" class="input-field" placeholder="Username">
+            <input type="password" class="input-field" placeholder="Password">
+            <input type="checkbox" class="check-box"><span>Remember me</span>
+            <button type="submit" class="submit-btn">log in</button>
+        </form>
+        <form action="" id="register" class="input-group">
+            <input type="text" class="input-field" placeholder="Username">
+            <input type="text" class="input-field" placeholder="email">
+            <input type="password" class="input-field" placeholder="Password">
+            <input type="checkbox" class="check-box"><span>I agree to terms and condition</span>
+            <button type="submit" class="submit-btn">REgoister</button>
+        </form>
+
+    </div>
+</div> .account-page {
+    /* height: 100%;
+    width: 100;
+    background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url("img/accountbackgorund.jpg");
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+    display: flex;
+       justify-content: center; */
+       height: 100%;
+       width: 100%;
+       background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url("img/accountbackgorund.jpg");
+       background-position: center;
+       background-size: cover;
+       position: absolute;
+   }
+   
+   .form-box{
+       width: 380px;
+       height: 480px;
+       position: relative;
+       margin: 6% auto;
+       background: #fff;
+       padding: 5px;
+   }
+   .Abutton-box{
+       width: 220px;
+       margin: 35px auto;
+       box-shadow: 0 0 20px 9px #ff61241f;
+       position: relative;
+       border-radius: 30px;
+   }
+   .toggle-btn{
+       padding: 10px 30px;
+       cursor: pointer;
+       background: transparent;
+       border: 0;
+       outline: none;
+       position: relative;
+   }
+   
+   #btn {
+     top: 0;  
+     left: 0;
+     position: absolute;
+     width: 110px;
+     height: 100%;
+     background: linear-gradient(to right, #ff105f , #ffad06);
+     border-radius: 30px;
+     transition: 0.5s;
+   }
+   
+   .input-group{
+       top: 180px;
+       position: absolute;
+       width: 280px;
+       transition: 0.5s;
+   }
+   .input-field{
+       width: 100%;
+       padding: 10ps 0;
+       margin: 5px 0;
+       border-top: 0;
+       border-left: 0;
+       border-right: 0;
+       border-bottom: 1px solid #999;
+       background: transparent;
+   }
+   .submit-btn{
+       width: 85%;
+       padding: 10px 30px;
+       cursor: pointer;
+       display: block;
+       margin: auto;
+       background: linear-gradient(to right,#ff105f, #ffad06);
+       border-radius: 30px;
+       border: 0;
+       outline: none;
+   
+   }
+   
